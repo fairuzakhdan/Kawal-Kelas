@@ -4,7 +4,7 @@
 		<td>No</td>
 		<td>NIM Pelapor</td>
 		<td>Nama Pelapor</td>
-		<td>Nama dosen</td>
+		<td>Nama Penanggap</td>
 		<td>Tanggal Masuk</td>
 		<td>Tanggal Ditanggapi</td>
 		<td>Status</td>

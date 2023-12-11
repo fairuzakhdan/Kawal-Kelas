@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 11 Des 2023 pada 14.18
+-- Waktu pembuatan: 11 Des 2023 pada 16.50
 -- Versi server: 10.4.27-MariaDB
 -- Versi PHP: 8.2.0
 
@@ -57,16 +57,17 @@ CREATE TABLE `mahasiswa` (
   `nama` varchar(35) NOT NULL,
   `username` varchar(25) NOT NULL,
   `password` varchar(255) NOT NULL,
-  `telp` varchar(13) NOT NULL
+  `telp` varchar(13) NOT NULL,
+  `level` varchar(100) DEFAULT 'Mahasiswa'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data untuk tabel `mahasiswa`
 --
 
-INSERT INTO `mahasiswa` (`nim`, `nama`, `username`, `password`, `telp`) VALUES
-('21', 'AB', 'AB', 'b86fc6b051f63d73de262d4c34e3a0a9', '21'),
-('2106088', 'ucuy', 'ucuy', '41f65f704bfaf9169e6495c9aa84589a', '12345');
+INSERT INTO `mahasiswa` (`nim`, `nama`, `username`, `password`, `telp`, `level`) VALUES
+('21', 'AB', 'AB', 'b86fc6b051f63d73de262d4c34e3a0a9', '21', 'Mahasiswa'),
+('2106088', 'ucuy', 'ucuy', '41f65f704bfaf9169e6495c9aa84589a', '12345', 'Mahasiswa');
 
 -- --------------------------------------------------------
 

@@ -1,5 +1,5 @@
 
-<h3 class="orange-text">Dahsboard</h3>
+<h3 class="black-text">Dahsboard</h3>
 
 	<div class="row">
 		<div class="col s4">

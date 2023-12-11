@@ -1,6 +1,6 @@
         <div class="row">
           <div class="col s12 m9">
-            <h3 class="orange-text">Respon</h3>
+            <h3 class="black-text">Respon</h3>
           </div>
         </div>
 
@@ -38,7 +38,7 @@
         <!-- Modal Structure -->
         <div id="more?id_tanggapan=<?php echo $r['id_tanggapan'] ?>" class="modal">
           <div class="modal-content">
-            <h4 class="orange-text">Detail</h4>
+            <h4 class="black-text">Detail</h4>
             <div class="col s12">
 				<p>NIM : <?php echo $r['nim']; ?></p>
             	<p>Dari : <?php echo $r['nama']; ?></p>

@@ -46,28 +46,28 @@
 
     </head>
 
-    <body style="background:url(../img/bg.jpg); background-size: cover;">
+    <body >
 
     <div class="row">
       <div class="col s12 m3">
-          <ul id="slide-out" class="sidenav sidenav-fixed">
+          <ul id="slide-out" class="sidenav sidenav-fixed" style="background-color: #180f9c;">
               <li>
-                  <div class="user-view">
+                  <div class="user-view" style="background-color: #180f9c;">
                       <div class="background">
                           <img src="../img/bg.jpg">
                       </div>
                       <a href="#user"><img class="circle" src="https://cdn5.vectorstock.com/i/1000x1000/01/69/businesswoman-character-avatar-icon-vector-12800169.jpg"></a>
-                      <a href="#name"><span class="blue-text name"><?php echo ucwords($_SESSION['data']['nama_dosen']); ?></span></a>
+                      <a href="#name"><span class="blue-text name"><?php echo ucwords($_SESSION['data']['nama']); ?> | <?php echo ucwords($_SESSION['level']);?></span></a>
                   </div>
               </li>
-              <li><a href="index.php?p=dashboard"><i class="material-icons">dashboard</i>Dashboard</a></li>
+              <li><a href="index.php?p=dashboard"><i class="material-icons white-text">dashboard</i>Dashboard</a></li>
               <li>
                   <div class="divider"></div>
               </li>
-              <li><a class="waves-effect" href="../index.php?p=logout"><i class="material-icons">logout</i>Logout</a></li>
+              <li><a class="waves-effect" href="../index.php?p=logout"><i class="material-icons white-text">logout</i>Logout</a></li>
           </ul>
 
-          <a href="#" data-target="slide-out" class="btn sidenav-trigger"><i class="material-icons">menu</i></a>
+          <a href="#" data-target="slide-out" class="btn sidenav-trigger"><i class="material-icons white-text">menu</i></a>
       </div>
 
       <div class="col s12 m9">

@@ -17,7 +17,7 @@
 	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
 
 </head>
-<body style="background: url(img/bg.jpg); background-size: cover;">
+<body>
 
 	<div class="container">
 		

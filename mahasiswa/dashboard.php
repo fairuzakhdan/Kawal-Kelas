@@ -1,7 +1,7 @@
 <table class="responsive-table" border="2" style="width: 100%;">
 	<tr>
-		<td><h4 class="orange-text hide-on-med-and-down">Tulis Laporan</h4></td>
-		<td><h4 class="orange-text hide-on-med-and-down">Daftar Laporan</h4></td>
+		<td><h4 class="black-text hide-on-med-and-down">Tulis Laporan</h4></td>
+		<td><h4 class="black-text hide-on-med-and-down">Daftar Laporan</h4></td>
 	</tr>
 	<tr>
 		<td style="padding: 20px;">
@@ -41,7 +41,7 @@
 <!-- ditanggapi -->
         <div id="tanggapan&id_pengaduan=<?php echo $r['id_pengaduan'] ?>" class="modal">
           <div class="modal-content">
-            <h4 class="orange-text">Detail</h4>
+            <h4 class="black-text">Detail</h4>
             <div class="col s12">
 				<p>nim : <?php echo $r['nim']; ?></p>
             	<p>Dari : <?php echo $r['nama']; ?></p>

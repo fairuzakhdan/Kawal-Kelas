@@ -1,6 +1,6 @@
 
 <div class="card" style="padding: 50px; width: 40%; margin: 0 auto; margin-top: 10%;">
-<h3 style="text-align: center;" class="orange-text">Login!</h3>
+<h3 style="text-align: center;" class="black-text">Login</h3>
 	<form method="POST">
 		<div class="input_field">
 			<label for="username">Username</label>
@@ -10,7 +10,7 @@
 			<label for="password">Passowrd</label>
 			<input id="password" type="password" name="password" required>
 		</div>
-		<input type="submit" name="login" value="Login" class="btn orange" style="width: 100%;">
+		<input type="submit" name="login" value="Login" class="btn black" style="width: 100%;">
 	</form>
 </div>
 <?php 

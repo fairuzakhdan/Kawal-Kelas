@@ -1,6 +1,6 @@
         <div class="row">
           <div class="col s12 m9">
-            <h3 class="orange-text">Respon</h3>
+            <h3 class="black-text">Respon</h3>
           </div>
         </div>
 

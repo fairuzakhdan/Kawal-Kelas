@@ -1,6 +1,6 @@
         <div class="row">
         	<div class="col s12 m9">
-        		<h3 class="orange-text">Mahasiswa</h3>
+        		<h3 class="black-text">Mahasiswa</h3>
         	</div>
         	<div class="col s12 m3">
         		<div class="section"></div>

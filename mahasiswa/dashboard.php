@@ -45,7 +45,6 @@
             <div class="col s12">
 				<p>nim : <?php echo $r['nim']; ?></p>
             	<p>Dari : <?php echo $r['nama']; ?></p>
-            	<p>Dosen : <?php echo $r['nama_dosen']; ?></p>
 				<p>Tanggal Masuk : <?php echo $r['tgl_pengaduan']; ?></p>
 				<p>Tanggal Ditanggapi : <?php echo $r['tgl_tanggapan']; ?></p>
 				<?php 
